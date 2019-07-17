@@ -29,3 +29,7 @@ function prependKitten(name){
 
   return array3.concat(kittens)
 }
+
+function removeLastKitten(name){
+  return kittens.slice(2)
+}
