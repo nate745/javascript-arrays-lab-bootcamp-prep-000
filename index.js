@@ -23,3 +23,7 @@ function appendKitten(name){
   return kittens.concat(array2)
 
 }
+
+function prependKitten(name){
+  return kittens.slice('Arnold')
+}
